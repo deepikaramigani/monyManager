@@ -1,0 +1,99 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.money-manager {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 20px;
+  width: 90%;
+}
+.heading {
+  color: #475569;
+}
+.span {
+  color: #0b69ff;
+  font-weight: bold;
+}
+.label {
+  display: block;
+  color: #7e858e;
+  font-weight: bold;
+}
+.input-style {
+  width: 90%;
+  font-size: 15px;
+  display: block;
+  border-color: #cbd5e1;
+  margin-bottom: 15px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
+.button {
+  background-color: #0b69ff;
+  color: white;
+  padding: 10px;
+  width: 30%;
+  border-radius: 4px;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+}
+.form-transaction-container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-between;
+}
+.form-container {
+  border-color: #cbd5e1;
+  border-style: solid;
+  padding: 30px;
+  margin: 10px;
+  width: 40%;
+  border-radius: 10px;
+}
+.history-container {
+  border-color: #cbd5e1;
+  border-style: solid;
+  padding: 30px;
+  margin: 10px;
+  width: 60%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .form-transaction-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .history-container {
+    width: 100%;
+  }
+}
+.history {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #334155;
+  font-weight: bold;
+}
+.padding {
+  padding: 0px;
+  margin: 0px;
+}
+.history-border {
+  border-style: solid;
+  border-color: #cbd5e1;
+}

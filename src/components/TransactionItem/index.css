@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.transaction-item {
+  color: #7e858e;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.list-item {
+  list-style-type: none;
+}
+.delete-button {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+.delete-img {
+  width: 40%;
+}
+.line-style {
+  color: #cbd5e1;
+  width: 100%;
+}

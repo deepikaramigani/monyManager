@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.img {
+  width: 60px;
+}
+.heading {
+  color: #cbd5e1;
+}
+.count {
+  font-size: 25px;
+  margin-top: 0px;
+  color: #475569;
+}
+.balance {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+.income {
+  border-color: #06b6d4;
+  background-color: #cffafe;
+}
+.expenses {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+.container {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  border-style: solid;
+  border-radius: 8px;
+  padding: 10px;
+}
+@media screen and (max-width: 576px) {
+  .money-details-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .container {
+    width: 100%;
+  }
+}
